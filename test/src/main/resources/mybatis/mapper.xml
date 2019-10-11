@@ -3,11 +3,11 @@
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <!--namespace mapper接口 必填 随便填值 防止SQL语句ID重名-->
-<mapper namespace="wgq.src.main.java.wcy.demo.dao.UserDao">
+<mapper namespace="com.dao.UserDao">
 
     <!--查询数据-->
-    <select id="queryUserList" resultType="User">
-          select * from user;
+    <select id="queryUserList" resultType="com.entity.User">
+          select * from user where name id=#{id};
     </select>
 
 </mapper>
