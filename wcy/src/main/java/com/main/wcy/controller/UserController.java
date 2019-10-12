@@ -1,6 +1,8 @@
 package com.main.wcy.controller;
 
-import com.main.wcy.mapper.UserMapper;
+import com.main.wcy.dao.UserMapper;
+import com.main.wcy.entity.UserEntity;
+import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Controller;
